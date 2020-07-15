@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Services\egak1teo.z3q~" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.7.1" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.7.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AdessoRideShare.Db\AdessoRideShare.Db.csproj" />
+    <ProjectReference Include="..\AdessoRideShare.Model\AdessoRideShare.Model.csproj" />
+    <ProjectReference Include="..\AdessoRideShare.Repository\AdessoRideShare.Repository.csproj" />
+    <ProjectReference Include="..\AdessoRideShare.Util\AdessoRideShare.Util.csproj" />
+  </ItemGroup>
+
+</Project>
